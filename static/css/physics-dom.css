@@ -1,0 +1,48 @@
+#rope {
+	z-index: 999;
+}
+.matter-body {
+	height: fit-content;
+	width: fit-content;
+	position: absolute !important;
+	margin: 0 !important;
+	top: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	transition: transform 0s !important;
+}
+#rope .segment {
+	background: black;
+	width: 80px;
+	height: 20px;
+	position: absolute;
+}
+
+#rope .segment:first-of-type {
+	/*transform: rotate(45deg) translate(2px, 2px);*/
+}
+
+/*#rope .segment:nth-of-type(2) {
+	opacity: 0;
+}
+#rope .segment:last-of-type {
+
+}*/
+
+canvas {
+    position:absolute;
+    /*top:80px; 
+    right:0;*/
+    top: 0px;
+    left: 0px;
+    
+    z-index:10000;
+    opacity:.3;
+    /*width: 50%;
+    height: auto;*/
+}
+
+canvas:hover {
+    opacity:0.8; 
+}

@@ -1,0 +1,6 @@
+*.bc
+box2d_glue.cpp
+box2d_glue.js
+/Makefile.local
+WebIDLGrammar.pkl
+parser.out
